@@ -35,7 +35,7 @@ const info = {
         "Developed a chat application in which user can create a personal chat room and have a conversation also added feature of voice and video call",
       technologies: "React , Nodejs , Expressjs , MongoDB , Tailwind",
       github: "https://github.com/tiwaririjul/chat.git",
-      link: "chatternet.onrender.com",
+      link: "https://chatternet.onrender.com",
     },
 
     {
@@ -57,13 +57,11 @@ const info = {
     },
 
     {
-      title: "Sudoku Solver",
-      description:
-        "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-      technologies: "React, Tailwind, TypeScript",
-      github:
-        "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-      link: "https://sudoku-solver-sa.netlify.app/",
+      title: "Portfolio",
+      description: "builded a fully responsive portfolio app",
+      technologies: "React, Tailwind",
+      github: "https://rijulportfolio.netlify.app/",
+      link: "https://github.com/tiwaririjul/Rijul_Portfolio",
     },
     // {
     //   title: "recipe App",
