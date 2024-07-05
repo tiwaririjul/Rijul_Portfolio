@@ -3,7 +3,7 @@ const info = {
   main: {
     name: "Rijul Tiwari",
     description:
-      "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+      "My name is Rijul Tiwari, and I live in Mumbai, India. I graduated with honors in Information Technology and Artificial Intelligence from Mumbai in 2024. I am skilled in Full Stack Web Development and have worked with technologies such as React, Node.js, Express.js, and MongoDB. Additionally, I have a strong understanding of Java and Object-Oriented Programming. My experience includes building industry-level projects with good practices and writing high-quality, optimized code. I also have knowledge of cloud technologies, including Docker, Git, and GitHub. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
     role: "Full-Stack Developer",
     photo: "../photo.webp",
     email: "tiwaririjul7@gmail.com",
