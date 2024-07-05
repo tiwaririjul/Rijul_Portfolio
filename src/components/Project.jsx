@@ -27,6 +27,7 @@ function Project({ title, description, technologies, link, github }) {
         {/* =========== PROJECT LINK =========== */}
         <a
           href={link}
+          target="_blank"
           className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
         >
           <CiLink className="text-2xl self-center" />
@@ -35,6 +36,7 @@ function Project({ title, description, technologies, link, github }) {
         {/* =========== PROJECT GITHUB =========== */}
         <a
           href={github}
+          target="_blank"
           className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
         >
           <CiLink className="text-2xl self-center" />
