@@ -64,15 +64,15 @@ const info = {
         "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
       link: "https://sudoku-solver-sa.netlify.app/",
     },
-    {
-      title: "recipe App",
-      description:
-        "Recipe generater app in which user can create recipes filing detail and put live with proper user  authentication",
-      technologies: "React, Tailwind, TypeScript",
-      github:
-        "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-      link: "https://sudoku-solver-sa.netlify.app/",
-    },
+    // {
+    //   title: "recipe App",
+    //   description:
+    //     "Recipe generater app in which user can create recipes filing detail and put live with proper user  authentication",
+    //   technologies: "React, Tailwind, TypeScript",
+    //   github:
+    //     "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
+    //   link: "https://sudoku-solver-sa.netlify.app/",
+    // },
   ],
 
   // ============ EDUCATION ============
