@@ -40,7 +40,8 @@ const info = {
 
     {
       title: "Flipkart CLone",
-      description: "Created a responsive Flipkart clone with ",
+      description:
+        "Created a responsive Flipkart clone with proper authentication ",
       technologies: "React, Tailwind, expressjs , Nodejs",
       github: "https://github.com/dsbalico/letter-digit-shape-classification",
       link: "https://github.com/dsbalico/letter-digit-shape-classification",
