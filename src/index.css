@@ -27,3 +27,168 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* SalesBuddy CRM themed scrollbar */
+.salesbuddy-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.salesbuddy-scrollbar::-webkit-scrollbar-track {
+  background: #dbeafe; /* blue-100 */
+  border-radius: 3px;
+}
+
+.salesbuddy-scrollbar::-webkit-scrollbar-thumb {
+  background: #93c5fd; /* blue-300 */
+  border-radius: 3px;
+}
+
+.salesbuddy-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6; /* blue-500 */
+}
+
+/* Dark mode for SalesBuddy */
+.dark .salesbuddy-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 58, 138, 0.2); /* blue-900/20 */
+}
+
+.dark .salesbuddy-scrollbar::-webkit-scrollbar-thumb {
+  background: #2563eb; /* blue-600 */
+}
+
+.dark .salesbuddy-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8; /* blue-700 */
+}
+
+/* E-commerce themed scrollbar */
+.ecommerce-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.ecommerce-scrollbar::-webkit-scrollbar-track {
+  background: #dcfce7; /* green-100 */
+  border-radius: 3px;
+}
+
+.ecommerce-scrollbar::-webkit-scrollbar-thumb {
+  background: #86efac; /* green-300 */
+  border-radius: 3px;
+}
+
+.ecommerce-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #22c55e; /* green-500 */
+}
+
+/* Dark mode for E-commerce */
+.dark .ecommerce-scrollbar::-webkit-scrollbar-track {
+  background: rgba(20, 83, 45, 0.2); /* green-900/20 */
+}
+
+.dark .ecommerce-scrollbar::-webkit-scrollbar-thumb {
+  background: #16a34a; /* green-600 */
+}
+
+.dark .ecommerce-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #15803d; /* green-700 */
+}
+
+/* Default scrollbar for other projects */
+.default-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.default-scrollbar::-webkit-scrollbar-track {
+  background: #fecaca; /* red-100 */
+  border-radius: 3px;
+}
+
+.default-scrollbar::-webkit-scrollbar-thumb {
+  background: #fca5a5; /* red-300 */
+  border-radius: 3px;
+}
+
+.default-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ef4444; /* red-500 */
+}
+
+/* Dark mode for default */
+.dark .default-scrollbar::-webkit-scrollbar-track {
+  background: rgba(127, 29, 29, 0.2); /* red-900/20 */
+}
+
+.dark .default-scrollbar::-webkit-scrollbar-thumb {
+  background: #dc2626; /* red-600 */
+}
+
+.dark .default-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c; /* red-700 */
+}
+
+/* Healthcare themed scrollbar */
+.healthcare-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.healthcare-scrollbar::-webkit-scrollbar-track {
+  background: #ccfbf1; /* teal-100 */
+  border-radius: 3px;
+}
+
+.healthcare-scrollbar::-webkit-scrollbar-thumb {
+  background: #5eead4; /* teal-300 */
+  border-radius: 3px;
+}
+
+.healthcare-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #14b8a6; /* teal-500 */
+}
+
+/* Dark mode for Healthcare */
+.dark .healthcare-scrollbar::-webkit-scrollbar-track {
+  background: rgba(19, 78, 74, 0.2); /* teal-900/20 */
+}
+
+.dark .healthcare-scrollbar::-webkit-scrollbar-thumb {
+  background: #0d9488; /* teal-600 */
+}
+
+.dark .healthcare-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0f766e; /* teal-700 */
+}
+
+/* Portfolio themed scrollbar */
+.portfolio-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.portfolio-scrollbar::-webkit-scrollbar-track {
+  background: #f3e8ff; /* purple-100 */
+  border-radius: 3px;
+}
+
+.portfolio-scrollbar::-webkit-scrollbar-thumb {
+  background: #c4b5fd; /* purple-300 */
+  border-radius: 3px;
+}
+
+.portfolio-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6; /* purple-500 */
+}
+
+/* Dark mode for Portfolio */
+.dark .portfolio-scrollbar::-webkit-scrollbar-track {
+  background: rgba(88, 28, 135, 0.2); /* purple-900/20 */
+}
+
+.dark .portfolio-scrollbar::-webkit-scrollbar-thumb {
+  background: #7c3aed; /* purple-600 */
+}
+
+.dark .portfolio-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9; /* purple-700 */
+}

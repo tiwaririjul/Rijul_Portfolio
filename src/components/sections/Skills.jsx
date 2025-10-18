@@ -5,7 +5,7 @@ import {
 } from "react-icons/bi";
 import { CgVercel } from "react-icons/cg";
 import { DiGithubAlt, DiMongodb } from "react-icons/di";
-import { FaDocker } from "react-icons/fa";
+import { FaDocker, FaJava } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import {
   FaAws,
@@ -30,6 +30,8 @@ import {
   SiPassport,
   SiPostman,
   SiPythonanywhere,
+  SiRedis,
+  SiRender,
   SiSequelize,
   SiTailwindcss,
   SiTensorflow,
@@ -45,27 +47,9 @@ function Skills() {
       </h4>
       {/* =========== LIST OF SKILLS =========== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mt-8">
-        <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaHtml5 className="text-2xl" /> HTML
-          {/* =========== TOOLTIP TEXT =========== */}
-          <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
-            role="tooltip"
-          >
-            Used for creating the structure and content of web pages.
-          </span>
-        </span>
+        
 
-        <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaCss3Alt className="text-2xl" /> CSS
-          {/* =========== TOOLTIP TEXT =========== */}
-          <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
-            role="tooltip"
-          >
-            Used for styling and layout of web pages.
-          </span>
-        </span>
+
         <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <IoLogoJavascript className="text-2xl" /> JavaScript
           {/* =========== TOOLTIP TEXT =========== */}
@@ -79,7 +63,7 @@ function Skills() {
         </span>
 
         <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaPython className="text-2xl" /> Java
+          <FaJava className="text-2xl" /> Java
           {/* =========== TOOLTIP TEXT =========== */}
           <span
             className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
@@ -91,19 +75,7 @@ function Skills() {
             web development, mobile apps, and enterprise software.
           </span>
         </span>
-        <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <FaPython className="text-2xl" /> Python
-          {/* =========== TOOLTIP TEXT =========== */}
-          <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
-            role="tooltip"
-          >
-            Java is a versatile, object-oriented programming language that runs
-            on any device with the Java Virtual Machine (JVM). Known for its
-            platform independence, security, and robustness, it's widely used in
-            web development, mobile apps, and enterprise software.
-          </span>
-        </span>
+      
         <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaReact className="text-2xl" /> React
           {/* =========== TOOLTIP TEXT =========== */}
@@ -163,7 +135,7 @@ function Skills() {
         </span>
 
         <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <SiJest className="text-2xl" /> Jest
+          <TbBrandNextjs className="text-2xl" /> Next.js
           {/* =========== TOOLTIP TEXT =========== */}
           <span
             className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
@@ -253,7 +225,7 @@ function Skills() {
           </span>
         </span>
         <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <BiLogoPostgresql className="text-2xl" /> SQL
+          <BiLogoPostgresql className="text-2xl" /> PostgreSQL
           {/* =========== TOOLTIP TEXT =========== */}
           <span
             className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
@@ -261,6 +233,28 @@ function Skills() {
           >
             An open-source relational database management system known for its
             extensibility and SQL compliance.
+          </span>
+        </span>
+
+        <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+          <SiRedis className="text-2xl" /> Redis
+          {/* =========== TOOLTIP TEXT =========== */}
+          <span
+            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
+            role="tooltip"
+          >
+            An in-memory data structure store used as a database, cache, and message broker.
+          </span>
+        </span>
+
+        <span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+          <SiRender className="text-2xl" /> Render
+          {/* =========== TOOLTIP TEXT =========== */}
+          <span
+            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
+            role="tooltip"
+          >
+            A cloud platform for deploying and hosting web applications and services.
           </span>
         </span>
       </div>
